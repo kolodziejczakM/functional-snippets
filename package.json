@@ -8,6 +8,10 @@
     "engines": {
         "vscode": "^1.17.0"
     },
+    "galleryBanner": {
+        "color": "#f5f3f4",
+        "theme": "light"
+    },
     "categories": [
         "Snippets"
     ],
