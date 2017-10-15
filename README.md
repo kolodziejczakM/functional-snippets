@@ -21,7 +21,7 @@
 17. umdmd - UMD module without params
 18. umdmdp - UMD module with params
 
-### All of these snippets excluding 1, 17,18 will work in Typescript files.
+### All of these snippets excluding 1, 17, 18 will work in Typescript files.
 
 ## License
 ### **MIT**
