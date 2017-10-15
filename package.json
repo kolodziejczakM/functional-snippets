@@ -2,7 +2,7 @@
     "name": "functional-js-snippets",
     "displayName": "Functional JS snippets",
     "description": "Provides useful functional ES6 snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "kolodziejczakmn",
     "icon": "images/logo.jpg",
     "engines": {
@@ -27,10 +27,16 @@
         "url": "https://github.com/kolodziejczakM/functional-snippets"
     },
     "contributes": {
-        "snippets": [{
-            "language": "javascript",
-            "path": "./snippets/javascript.json"
-        }]
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            }
+        ]
     },
     "devDependencies": {
         "typescript": "^2.5.2",

@@ -1,11 +1,4 @@
 {
-	"IIFE": {
-		"prefix": "iife",
-		"body": [
-			"(function ${1:index}(){})();"
-		],
-		"description": "Self invoking function useful for singletones, module definitions"
-	},
 	"Function declaration": {
 		"prefix": "fn",
 		"body": [
@@ -110,40 +103,5 @@
 			"console.error(`${1:index}`)"
 		],
 		"description": "You can use variable inside this string like this: ${variable}"
-	},
-	"UMD module without params": {
-		"prefix": "umdmd",
-		"body": [
-			"(function (context, factory) {",
-			"    if (typeof exports === 'object') {",
-			"        module.exports = factory();",
-			"    } else if (typeof define === 'function' && define.amd) {",
-			"        define(factory);",
-			"    } else {",
-			"        context.${1:yourModuleName} = factory();",
-			"    }",
-			"})(this, function () {",
-			"    // your module body",
-			"});"
-		],
-		"description": "You can create your own Javascript UMD module - compatible with AMD, CommonJS and Browser global approach."
-	},
-	"UMD module with params": {
-		"prefix": "umdmdp",
-		"body": [
-			"(function (context, factory) {",
-			"    if (typeof exports === 'object') {",
-			"        module.exports = factory(require('b'));",
-			"    } else if (typeof define === 'function' && define.amd) {",
-			"        define(['b'], factory);",
-			"    } else {",
-			"        context.${1:yourModuleName} = factory(context.b);",
-			"    }",
-			"})(this, function (b) {",
-			"    // your module body",
-			"});"
-		],
-		"description": "You can create your own Javascript UMD module - compatible with AMD, CommonJS and Browser global approach."
 	}
 }
-
