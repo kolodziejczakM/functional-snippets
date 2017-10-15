@@ -1,0 +1,164 @@
+{
+	/*
+	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"IIFE": {
+		"prefix": "iife",
+		"body": [
+			"(function ${1:index}(){})();"
+		],
+		"description": "Self invoking function useful for singletones, module definitions"
+	},
+	"Function declaration": {
+		"prefix": "fn",
+		"body": [
+			"function ${1:index}(${2:index}) {}"
+		],
+		"description": "Standard function declaration"
+	},
+	"Function expression": {
+		"prefix": "fne",
+		"body": [
+			"const ${1:index} = function(${2:index}) {};"
+		],
+		"description": "Standard function expression"
+	},
+	"Anonymous function": {
+		"prefix": "afn",
+		"body": [
+			"function(${1:index}){}"
+		],
+		"description": "Standard anonymous function"
+	},
+	"Arrow function expression": {
+		"prefix": "arfne",
+		"body": [
+			"const ${1:index} = (${2:index}) => {};"
+		],
+		"description": "Arrow function expression"
+	},
+	"Arrow anonymous function": {
+		"prefix": "arafn",
+		"body": [
+			"(${1:index}) => {}"
+		],
+		"description": "Arrow anonymous function"
+	},
+	"Map with arrow function": {
+		"prefix": "mfn",
+		"body": [
+			"${1:index}.map((${2:index}) => {});"
+		],
+		"description": "Map function with arrow function inside"
+	},
+	"ForEach with arrow function": {
+		"prefix": "fefn",
+		"body": [
+			"${1:index}.forEach((${2:index}) => {});"
+		],
+		"description": "ForEach function with arrow function inside"
+	},
+	"Some with arrow function": {
+		"prefix": "sfn",
+		"body": [
+			"${1:index}.some((${2:index}) => {})"
+		],
+		"description": "Some function with arrow function inside"
+	},
+	"Every with arrow function": {
+		"prefix": "efn",
+		"body": [
+			"${1:index}.every((${2:index}) => {})"
+		],
+		"description": "Every function with arrow function inside"
+	},
+	"Standard browser log": {
+		"prefix": "clog",
+		"body": [
+			"console.log(${1:index})"
+		],
+		"description": "Log variable to console"
+	},
+	"Browser log with template literal inside": {
+		"prefix": "clogs",
+		"body": [
+			"console.log(`${1:index}`)"
+		],
+		"description": "You can use variable inside this string like this: ${variable}"
+	},
+	"Standard browser warn log": {
+		"prefix": "clogw",
+		"body": [
+			"console.warn(${1:index})"
+		],
+		"description": "Log warning with variable to console"
+	},
+	"Browser warn log with template literal inside": {
+		"prefix": "clogws",
+		"body": [
+			"console.warn(`${1:index}`)"
+		],
+		"description": "You can use variable inside this string like this: ${variable}"
+	},
+	"Standard browser error log": {
+		"prefix": "cloge",
+		"body": [
+			"console.error(${1:index})"
+		],
+		"description": "Log variable to console"
+	},
+	"Browser error log with template literal inside": {
+		"prefix": "cloges",
+		"body": [
+			"console.error(`${1:index}`)"
+		],
+		"description": "You can use variable inside this string like this: ${variable}"
+	},
+	"UMD module without params": {
+		"prefix": "umdmd",
+		"body": [
+			"(function (context, factory) {",
+			"    if (typeof exports === 'object') {",
+			"        module.exports = factory();",
+			"    } else if (typeof define === 'function' && define.amd) {",
+			"        define(factory);",
+			"    } else {",
+			"        context.${1:yourModuleName} = factory();",
+			"    }",
+			"})(this, function () {",
+			"    // your module body",
+			"});"
+		],
+		"description": "You can create your own Javascript UMD module - compatible with AMD, CommonJS and Browser global approach."
+	},
+	"UMD module with params": {
+		"prefix": "umdmdp",
+		"body": [
+			"(function (context, factory) {",
+			"    if (typeof exports === 'object') {",
+			"        module.exports = factory(require('b'));",
+			"    } else if (typeof define === 'function' && define.amd) {",
+			"        define(['b'], factory);",
+			"    } else {",
+			"        context.${1:yourModuleName} = factory(context.b);",
+			"    }",
+			"})(this, function (b) {",
+			"    // your module body",
+			"});"
+		],
+		"description": "You can create your own Javascript UMD module - compatible with AMD, CommonJS and Browser global approach."
+	}
+}
+

@@ -1,0 +1,38 @@
+{
+    "name": "functional-js-snippets",
+    "displayName": "Functional JS snippets",
+    "description": "Provides useful functional ES6 snippets",
+    "version": "0.0.1",
+    "publisher": "kolodziejczakmn",
+    "icon": "images/logo.jpg",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "JavaScript snippets",
+        "JavaScript functional",
+        "Functional",
+        "js",
+        "snippets"
+    ],
+    "repository": {
+        "type": "git"
+    },
+    "contributes": {
+        "snippets": [{
+            "language": "javascript",
+            "path": "./snippets/javascript.json"
+        }]
+    },
+    "devDependencies": {
+        "typescript": "^2.5.2",
+        "vscode": "^1.1.5",
+        "mocha": "^3.5.0",
+        "eslint": "^4.6.1",
+        "@types/node": "^7.0.0",
+        "@types/mocha": "^2.2.42"
+    }
+}
