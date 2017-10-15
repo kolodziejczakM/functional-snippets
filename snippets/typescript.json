@@ -16,7 +16,7 @@
 	"Anonymous function": {
 		"prefix": "afn",
 		"body": [
-			"function(${1:index}){}"
+			"function(${1:index}) {}"
 		],
 		"description": "Standard anonymous function"
 	},

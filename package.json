@@ -2,7 +2,7 @@
     "name": "functional-js-snippets",
     "displayName": "Functional JS snippets",
     "description": "Provides useful functional ES6 snippets",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "kolodziejczakmn",
     "icon": "images/logo.jpg",
     "engines": {
@@ -16,11 +16,11 @@
         "Snippets"
     ],
     "keywords": [
+        "javascript",
+        "functional",
         "JavaScript snippets",
-        "JavaScript functional",
-        "Functional",
-        "js",
-        "snippets"
+        "TypeScript snippets",
+        "JavaScript functional"
     ],
     "repository": {
         "type": "git",

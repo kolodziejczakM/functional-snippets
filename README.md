@@ -1,27 +1,29 @@
-# Functional javascript snippets
-## This extension provides some useful snippets listed below
+# Functional Javascript / Typescript snippets
+## This  **_Visual Studio Code_** extension provides some useful snippets listed below:
 
-## Snippets
-1. iife - (function ${1:index}(){})();
-2. fn - function ${1:index}(${2:index}) {}
-3. fne - const ${1:index} = function(${2:index}) {};
-4. afn - function(${1:index}){}
-5. arfne - const ${1:index} = (${2:index}) => {};
-6. arafn - (${1:index}) => {}
-7. mfn - ${1:index}.map((${2:index}) => {});
-8. fefn - ${1:index}.forEach((${2:index}) => {});
-9. sfn - ${1:index}.some((${2:index}) => {})
-10. efn - ${1:index}.every((${2:index}) => {})
-11. clog - console.log(${1:index})
-12. clogs - console.log(`${1:index}`)
-13. clogw - console.warn(${1:index})
-14. clogws - console.warn(`${1:index}`)
-15. cloge - console.error(${1:index})
-16. cloges - console.error(`${1:index}`)
+```javascript
+1. iife - (function youEdit(){})();
+2. fn - function youEdit(youEdit2) {}
+3. fne - const youEdit = function(youEdit2) {};
+4. afn - function(youEdit) {}
+5. arfne - const youEdit = (youEdit2) => {};
+6. arafn - (youEdit) => {}
+7. mfn - youEdit.map((youEdit2) => {});
+8. fefn - youEdit.forEach((youEdit2) => {});
+9. sfn - youEdit.some((youEdit2) => {})
+10. efn - youEdit.every((youEdit2) => {})
+11. clog - console.log(youEdit)
+12. clogs - console.log(`youEdit`)
+13. clogw - console.warn(youEdit)
+14. clogws - console.warn(`youEdit`)
+15. cloge - console.error(youEdit)
+16. cloges - console.error(`youEdit`)
 17. umdmd - UMD module without params
 18. umdmdp - UMD module with params
+```
+All of these snippets excluding **1, 17, 18** will work in Typescript files.
 
-### All of these snippets excluding 1, 17, 18 will work in Typescript files.
+**Note that Typescipt has 'module' keyword that is transpiled to IIFE.**
 
 ## License
 ### **MIT**
