@@ -90,6 +90,41 @@
 		],
 		"description": "Every function with arrow function inside"
 	},
+	"Reduce with arrow function": {
+		"prefix": "rfn",
+		"body": [
+			"${1:index}.reduce((${2:index}) => {})"
+		],
+		"description": "Reduce function with arrow function inside"
+	},
+	"Concat function": {
+		"prefix": "cfn",
+		"body": [
+			"${1:index}.concat(${2:index})"
+		],
+		"description": "Standard concat function"
+	},
+	"Join function": {
+		"prefix": "jfn",
+		"body": [
+			"${1:index}.join(${2:index})"
+		],
+		"description": "Standard join function"
+	},
+	"split function": {
+		"prefix": "spfn",
+		"body": [
+			"${1:index}.split(${2:index})"
+		],
+		"description": "Standard split function"
+	},
+	"slice function": {
+		"prefix": "slfn",
+		"body": [
+			"${1:index}.slice(${2:index})"
+		],
+		"description": "Standard slice function"
+	},
 	"Standard browser log": {
 		"prefix": "clog",
 		"body": [

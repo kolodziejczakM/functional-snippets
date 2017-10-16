@@ -15,15 +15,20 @@
 11. fefn - youEdit.forEach((youEdit2) => {});
 12. sfn - youEdit.some((youEdit2) => {})
 13. efn - youEdit.every((youEdit2) => {})
-14. clog - console.log(youEdit)
-15. clogs - console.log(`youEdit`)
-16. clogw - console.warn(youEdit)
-17. clogws - console.warn(`youEdit`)
-18. cloge - console.error(youEdit)
-19. cloges - console.error(`youEdit`)
-20. iife - (function youEdit(){})();
-21. umdmd - UMD module without params
-22. umdmdp - UMD module with params
+14. rfn - youEdit.reduce((youEdit2) => {})
+15. cfn - youEdit.concat(youEdit2)
+16. slfn - youEdit.slice(youEdit2)
+17. spfn - youEdit.split(youEdit2)
+18. jfn - youEdit.join(youEdit)
+19. clog - console.log(youEdit)
+20. clogs - console.log(`youEdit`)
+21. clogw - console.warn(youEdit)
+22. clogws - console.warn(`youEdit`)
+23. cloge - console.error(youEdit)
+24. cloges - console.error(`youEdit`)
+25. iife - (function youEdit(){})();
+26. umdmd - UMD module without params
+27. umdmdp - UMD module with params
 ```
 
 **Note that Typescipt has 'module' keyword that is transpiled to IIFE.**
