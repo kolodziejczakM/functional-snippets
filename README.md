@@ -21,7 +21,7 @@
 17. clogws - console.warn(`youEdit`)
 18. cloge - console.error(youEdit)
 19. cloges - console.error(`youEdit`)
-20iife - (function youEdit(){})();
+20. iife - (function youEdit(){})();
 21. umdmd - UMD module without params
 22. umdmdp - UMD module with params
 ```
