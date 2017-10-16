@@ -2,26 +2,29 @@
 ## This  **_Visual Studio Code_** extension provides some useful snippets listed below:
 
 ```javascript
-1. iife - (function youEdit(){})();
-2. fn - function youEdit(youEdit2) {}
-3. fne - const youEdit = function(youEdit2) {};
-4. afn - function(youEdit) {}
-5. arfne - const youEdit = (youEdit2) => {};
-6. arafn - (youEdit) => {}
-7. mfn - youEdit.map((youEdit2) => {});
-8. fefn - youEdit.forEach((youEdit2) => {});
-9. sfn - youEdit.some((youEdit2) => {})
-10. efn - youEdit.every((youEdit2) => {})
-11. clog - console.log(youEdit)
-12. clogs - console.log(`youEdit`)
-13. clogw - console.warn(youEdit)
-14. clogws - console.warn(`youEdit`)
-15. cloge - console.error(youEdit)
-16. cloges - console.error(`youEdit`)
-17. umdmd - UMD module without params
-18. umdmdp - UMD module with params
+1. fn - function youEdit(youEdit2) {}
+2. fne - const youEdit = function(youEdit2) {};
+3. afn - function(youEdit) {}
+4. arfne - const youEdit = (youEdit2) => {};
+5. arafn - (youEdit) => {}
+6. mfn - youEdit.map((youEdit2) => {})
+7. ifn - youEdit.includes(youEdit2)
+8. ffn - youEdit.filter((youEdit2) => {})
+9. ffd - youEdit.find((youEdit2) => {})
+10. fifd - youEdit.findIndex((youEdit2) => {})
+11. fefn - youEdit.forEach((youEdit2) => {});
+12. sfn - youEdit.some((youEdit2) => {})
+13. efn - youEdit.every((youEdit2) => {})
+14. clog - console.log(youEdit)
+15. clogs - console.log(`youEdit`)
+16. clogw - console.warn(youEdit)
+17. clogws - console.warn(`youEdit`)
+18. cloge - console.error(youEdit)
+19. cloges - console.error(`youEdit`)
+20iife - (function youEdit(){})();
+21. umdmd - UMD module without params
+22. umdmdp - UMD module with params
 ```
-All of these snippets excluding **1, 17, 18** will work in Typescript files.
 
 **Note that Typescipt has 'module' keyword that is transpiled to IIFE.**
 

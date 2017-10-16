@@ -1,11 +1,4 @@
 {
-	"IIFE": {
-		"prefix": "iife",
-		"body": [
-			"(function ${1:index}(){})();"
-		],
-		"description": "Self invoking function useful for singletones, module definitions"
-	},
 	"Function declaration": {
 		"prefix": "fn",
 		"body": [
@@ -44,9 +37,37 @@
 	"Map with arrow function": {
 		"prefix": "mfn",
 		"body": [
-			"${1:index}.map((${2:index}) => {});"
+			"${1:index}.map((${2:index}) => {})"
 		],
 		"description": "Map function with arrow function inside"
+	},
+	"Includes function": {
+		"prefix": "ifn",
+		"body": [
+			"${1:index}.includes(${2:index})"
+		],
+		"description": "Includes function"
+	},
+	"Filter with arrow function": {
+		"prefix": "ffn",
+		"body": [
+			"${1:index}.filter((${2:index}) => {})"
+		],
+		"description": "Filter function with arrow function inside"
+	},
+	"Find with arrow function": {
+		"prefix": "fdfn",
+		"body": [
+			"${1:index}.find((${2:index}) => {})"
+		],
+		"description": "Find function with arrow function inside"
+	},
+	"FindIndex with arrow function": {
+		"prefix": "fifn",
+		"body": [
+			"${1:index}.findIndex((${2:index}) => {})"
+		],
+		"description": "FindIndex function with arrow function inside"
 	},
 	"ForEach with arrow function": {
 		"prefix": "fefn",
@@ -110,6 +131,13 @@
 			"console.error(`${1:index}`)"
 		],
 		"description": "You can use variable inside this string like this: ${variable}"
+	},
+	"IIFE": {
+		"prefix": "iife",
+		"body": [
+			"(function ${1:index}(){})();"
+		],
+		"description": "Self invoking function useful for singletones, module definitions"
 	},
 	"UMD module without params": {
 		"prefix": "umdmd",
