@@ -21,14 +21,14 @@
 		"description": "Standard anonymous function"
 	},
 	"Arrow function expression": {
-		"prefix": "arfne",
+		"prefix": "ae",
 		"body": [
 			"const ${1:index} = (${2:index}) => {};"
 		],
 		"description": "Arrow function expression"
 	},
 	"Arrow anonymous function": {
-		"prefix": "arafn",
+		"prefix": "a",
 		"body": [
 			"(${1:index}) => {}"
 		],
@@ -126,42 +126,42 @@
 		"description": "Standard slice function"
 	},
 	"Standard browser log": {
-		"prefix": "clog",
+		"prefix": "cl",
 		"body": [
 			"console.log(${1:index})"
 		],
 		"description": "Log variable to console"
 	},
 	"Browser log with template literal inside": {
-		"prefix": "clogs",
+		"prefix": "cls",
 		"body": [
 			"console.log(`${1:index}`)"
 		],
 		"description": "You can use variable inside this string like this: ${variable}"
 	},
 	"Standard browser warn log": {
-		"prefix": "clogw",
+		"prefix": "cw",
 		"body": [
 			"console.warn(${1:index})"
 		],
 		"description": "Log warning with variable to console"
 	},
 	"Browser warn log with template literal inside": {
-		"prefix": "clogws",
+		"prefix": "cws",
 		"body": [
 			"console.warn(`${1:index}`)"
 		],
 		"description": "You can use variable inside this string like this: ${variable}"
 	},
 	"Standard browser error log": {
-		"prefix": "cloge",
+		"prefix": "ce",
 		"body": [
 			"console.error(${1:index})"
 		],
 		"description": "Log variable to console"
 	},
 	"Browser error log with template literal inside": {
-		"prefix": "cloges",
+		"prefix": "ces",
 		"body": [
 			"console.error(`${1:index}`)"
 		],
