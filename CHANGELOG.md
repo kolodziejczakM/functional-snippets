@@ -1,5 +1,12 @@
 # Change Log
 All notable changes to the "Functional javascript snippets" extension will be documented in this file.
+## [1.0.1] - 2017.10.22
+### Changed
+- Hoist arrow snippet by making it more verbose:  
+
+| NOW | BEFORE | RESULT |  
+|-----|--------|:------:|
+| aa | a | (youEdit) => {} |
 ## [1.0.0] - 2017.10.22
 ### Changed
 - Most useful snippets are shorter now:  

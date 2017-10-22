@@ -28,7 +28,7 @@
 		"description": "Arrow function expression"
 	},
 	"Arrow anonymous function": {
-		"prefix": "a",
+		"prefix": "aa",
 		"body": [
 			"(${1:index}) => {}"
 		],
