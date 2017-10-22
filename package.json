@@ -2,7 +2,7 @@
     "name": "functional-js-snippets",
     "displayName": "Functional JS snippets",
     "description": "Provides useful functional ES6 snippets",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "kolodziejczakmn",
     "icon": "images/logo.jpg",
     "engines": {

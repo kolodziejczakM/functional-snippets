@@ -126,14 +126,14 @@
 		"description": "Standard slice function"
 	},
 	"Standard browser log": {
-		"prefix": "cl",
+		"prefix": "clg",
 		"body": [
 			"console.log(${1:index})"
 		],
 		"description": "Log variable to console"
 	},
 	"Browser log with template literal inside": {
-		"prefix": "cls",
+		"prefix": "clgs",
 		"body": [
 			"console.log(`${1:index}`)"
 		],

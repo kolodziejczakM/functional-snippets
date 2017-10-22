@@ -1,10 +1,18 @@
 # Change Log
 All notable changes to the "Functional javascript snippets" extension will be documented in this file.
+## [1.0.2] - 2017.10.22
+### Changed
+- Hoist console.log snippets by making it more verbose (to avoid class keyword conflicts):  
+
+| NOW | BEFORE | RESULT |
+|-----|--------|:------:|
+| clg | cl | console.log(${1:index}) |
+| clgs | cls | console.log(`${1:index}`) |
 ## [1.0.1] - 2017.10.22
 ### Changed
 - Hoist arrow snippet by making it more verbose:  
 
-| NOW | BEFORE | RESULT |  
+| NOW | BEFORE | RESULT |
 |-----|--------|:------:|
 | aa | a | (youEdit) => {} |
 ## [1.0.0] - 2017.10.22
